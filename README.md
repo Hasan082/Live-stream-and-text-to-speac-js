@@ -1,38 +1,37 @@
-# Video Recording and Text-to-Speech Application
+# Multimedia Web Application
 
-This project is a web application that allows users to record video using their webcam and convert text to speech. The application utilizes the MediaRecorder API for video recording and the Web Speech API for text-to-speech functionality.
+Welcome to the Multimedia Web Application! This application allows users to perform two main functions: **Video Recording** and **Text-to-Speech Conversion**. Below, you will find detailed instructions on how to use each feature.
+
+## Table of Contents
+- [Features](#features)
+- [How to Use](#how-to-use)
+  - [Video Recording](#video-recording)
+  - [Text-to-Speech](#text-to-speech)
+- [Live Demo](#live-demo)
 
 ## Features
-
-- **Video Recording**: Access the user's webcam and microphone to record video.
-- **Text-to-Speech**: Convert text entered in a textarea to speech with customizable voice options.
-- **Recording Timer**: Display the recording time in a `MM:SS` format.
-- **Download Video**: Save the recorded video in `.webm` format.
-- **Voice Selection**: Choose between different voices for text-to-speech functionality.
+- **Video Recording**: Record videos using your device's camera and audio.
+- **Text-to-Speech**: Convert text input into spoken audio using the browser's Speech Synthesis API.
 
 ## How to Use
 
 ### Video Recording
 
-1. Open the `index.html` file in your web browser.
-2. Allow the browser to access your camera and microphone when prompted.
-3. Click the **Start Recording** button to begin recording video.
-4. While recording, the recording time will be displayed in `MM:SS` format.
-5. Click the **Stop Recording** button to end the recording.
-6. A download link will appear; click it to download the recorded video file.
+1. **Open the application**: Launch the `index.html` file in your web browser.
+2. **Grant Permissions**: When prompted, allow the browser to access your camera and microphone.
+3. **Start Recording**: Click the **Start Recording** button to begin capturing video.
+4. **Monitor Recording Time**: The recording time will be displayed in **MM:SS** format while you record.
+5. **Stop Recording**: Click the **Stop Recording** button to end the session.
+6. **Download Your Video**: A download link will appear after stopping the recording; click it to download your recorded video file.
 
 ### Text-to-Speech
 
-1. Open the `index.html` file in your web browser.
-2. Enter the text you want to convert to speech in the textarea.
-3. Click the **Start** button to begin speaking the entered text.
-4. Click the **Stop** button to halt the speech playback.
+1. **Open the application**: Launch the `index.html` file in your web browser.
+2. **Enter Text**: Input the text you want to convert to speech in the textarea.
+3. **Start Speech**: Click the **Start** button to begin playback of the entered text.
+4. **Stop Speech**: Click the **Stop** button to halt the speech playback at any time.
 
-## Live Links
+## Live Demo
+You can try out both functionalities of this application live at the following link:
+- [Live Demo](your-live-demo-link-here)
 
-- **Video Recording Demo**: [Live Video Recording Demo](#) *(Insert the live link here)*
-- **Text-to-Speech Demo**: [Live Text-to-Speech Demo](#) *(Insert the live link here)*
-
-## License
-
-This project is open-source and available for use. Feel free to contribute and improve upon it!
