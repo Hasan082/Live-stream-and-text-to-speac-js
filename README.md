@@ -33,5 +33,5 @@ Welcome to the Multimedia Web Application! This application allows users to perf
 
 ## Live Demo
 You can try out both functionalities of this application live at the following link:
-- [Live Demo](your-live-demo-link-here)
+- [Live Demo](https://live-stream-and-text-to-speac-js.netlify.app/)
 

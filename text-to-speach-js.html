@@ -11,7 +11,7 @@
 <body>
     
     <div class="container py-5">
-        <a class="btn btn-warning display-1" href="/">&#128281;</a>
+        <a class="btn btn-warning display-1" id="backBtn" href="/">&#128281;</a>
         <div class="row d-flex justify-content-center">
             <div class="col-md-8">
                 <h2 class="text-center">Convert your text to speach</h2>
@@ -74,6 +74,11 @@
     
             // Re-enable the speak button and disable the stop button when stopped manually
             stopBtn.on('click', function() {
+                window.speechSynthesis.cancel();
+                speakBtn.prop('disabled', false);
+                stopBtn.prop('disabled', true);
+            });
+            $("#backBtn").on('click', function(e) {
                 window.speechSynthesis.cancel();
                 speakBtn.prop('disabled', false);
                 stopBtn.prop('disabled', true);
