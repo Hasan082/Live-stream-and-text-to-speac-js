@@ -78,6 +78,8 @@
                 speakBtn.prop('disabled', false);
                 stopBtn.prop('disabled', true);
             });
+    
+            // Stop the speech when the back button is clicked
             $("#backBtn").on('click', function(e) {
                 window.speechSynthesis.cancel();
                 speakBtn.prop('disabled', false);
