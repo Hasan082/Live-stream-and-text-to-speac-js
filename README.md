@@ -17,7 +17,7 @@ Welcome to the Multimedia Web Application! This application allows users to perf
 
 ### Video Recording
 
-1. **Open the application**: Launch the `index.html` file in your web browser.
+1. **Open the application**: Launch the website in your web browser.
 2. **Grant Permissions**: When prompted, allow the browser to access your camera and microphone.
 3. **Start Recording**: Click the **Start Recording** button to begin capturing video.
 4. **Monitor Recording Time**: The recording time will be displayed in **MM:SS** format while you record.
@@ -26,7 +26,7 @@ Welcome to the Multimedia Web Application! This application allows users to perf
 
 ### Text-to-Speech
 
-1. **Open the application**: Launch the `index.html` file in your web browser.
+1. **Open the application**: Launch the website in your web browser.
 2. **Enter Text**: Input the text you want to convert to speech in the textarea.
 3. **Start Speech**: Click the **Start** button to begin playback of the entered text.
 4. **Stop Speech**: Click the **Stop** button to halt the speech playback at any time.
